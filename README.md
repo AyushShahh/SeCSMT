@@ -1,7 +1,7 @@
 # SeCSMT
 Secure Cryptographic Seed Modulo and Twirl Hash algorithm.
 
-Takes a string and bucket size as argument and returns an index for hash table array. The bucket size should atleast be around 2.22 times the number of words you want to index to keep the number of collissions at minimum.
+Takes a string and bucket size as argument and returns an index for hash table array. The bucket size should atleast be around 2.22 times the number of words you want to hash to keep the number of collissions at minimum.
 
 ## Usage
 Download `csmt.h` and `csmt.c` from [releases](https://github.com/AyushShahh/SeCSMT/releases/tag/v1.0) and keep then in the root folder with respect to your C file.<br>Add this line in the beginning of your file:
